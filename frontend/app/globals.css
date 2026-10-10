@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Dark mode follows a class on <html> so the theme toggle can override the system setting. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Kestrel palette: deep navy "ink" neutrals with a teal accent. */
+@theme {
+  --color-ink-50: #f6f8fa;
+  --color-ink-100: #eef1f5;
+  --color-ink-200: #dde3ea;
+  --color-ink-300: #c3ccd7;
+  --color-ink-400: #8d99a8;
+  --color-ink-500: #64717f;
+  --color-ink-600: #4a5664;
+  --color-ink-700: #343f4d;
+  --color-ink-800: #1d2735;
+  --color-ink-900: #131b27;
+  --color-ink-950: #0b1220;
+
+  --color-accent-50: #f0fdfa;
+  --color-accent-100: #ccfbf1;
+  --color-accent-200: #99f6e4;
+  --color-accent-300: #5eead4;
+  --color-accent-400: #2dd4bf;
+  --color-accent-500: #14b8a6;
+  --color-accent-600: #0d9488;
+  --color-accent-700: #0f766e;
+  --color-accent-800: #115e59;
+  --color-accent-900: #134e4a;
+  --color-accent-950: #042f2e;
+}
+
+html {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  background: var(--color-ink-50);
+}
+html.dark body {
+  background: var(--color-ink-950);
+}
