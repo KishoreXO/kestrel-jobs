@@ -1,0 +1,71 @@
+# Starter pack: public job boards that companies publish on Greenhouse, Lever or Ashby.
+# Shown in the dashboard (Companies → Add from starter pack); nothing is added unless you pick it.
+# Every board here was checked to be a live public board. Boards change, so open a pull request
+# if one stops working.
+
+software:
+  - {name: Airbnb, ats: greenhouse, slug: airbnb}
+  - {name: Stripe, ats: greenhouse, slug: stripe}
+  - {name: Figma, ats: greenhouse, slug: figma}
+  - {name: Cloudflare, ats: greenhouse, slug: cloudflare}
+  - {name: GitLab, ats: greenhouse, slug: gitlab}
+  - {name: Dropbox, ats: greenhouse, slug: dropbox}
+  - {name: Pinterest, ats: greenhouse, slug: pinterest}
+  - {name: Reddit, ats: greenhouse, slug: reddit}
+  - {name: Discord, ats: greenhouse, slug: discord}
+  - {name: Duolingo, ats: greenhouse, slug: duolingo}
+  - {name: Asana, ats: greenhouse, slug: asana}
+  - {name: Twilio, ats: greenhouse, slug: twilio}
+  - {name: Okta, ats: greenhouse, slug: okta}
+  - {name: Vercel, ats: greenhouse, slug: vercel}
+  - {name: Notion, ats: ashby, slug: notion}
+  - {name: Linear, ats: ashby, slug: linear}
+  - {name: Replit, ats: ashby, slug: replit}
+  - {name: Supabase, ats: ashby, slug: supabase}
+  - {name: PostHog, ats: ashby, slug: posthog}
+  - {name: Palantir, ats: lever, slug: palantir}
+  - {name: Spotify, ats: lever, slug: spotify}
+  - {name: Outreach, ats: lever, slug: outreach}
+
+data_and_ai:
+  - {name: Databricks, ats: greenhouse, slug: databricks}
+  - {name: Datadog, ats: greenhouse, slug: datadog}
+  - {name: Elastic, ats: greenhouse, slug: elastic}
+  - {name: MongoDB, ats: greenhouse, slug: mongodb}
+  - {name: Samsara, ats: greenhouse, slug: samsara}
+  - {name: Modal, ats: ashby, slug: modal}
+  - {name: Cohere, ats: ashby, slug: cohere}
+  - {name: ElevenLabs, ats: ashby, slug: elevenlabs}
+  - {name: Perplexity, ats: ashby, slug: perplexity}
+
+finance:
+  - {name: Robinhood, ats: greenhouse, slug: robinhood}
+  - {name: Affirm, ats: greenhouse, slug: affirm}
+  - {name: Toast, ats: greenhouse, slug: toast}
+  - {name: Gusto, ats: greenhouse, slug: gusto}
+  - {name: Chime, ats: greenhouse, slug: chime}
+  - {name: SoFi, ats: greenhouse, slug: sofi}
+  - {name: Carta, ats: greenhouse, slug: carta}
+  - {name: Ramp, ats: ashby, slug: ramp}
+  - {name: Vanta, ats: ashby, slug: vanta}
+
+healthcare:
+  - {name: Oscar Health, ats: greenhouse, slug: oscar}
+  - {name: Flatiron Health, ats: greenhouse, slug: flatironhealth}
+  - {name: Zocdoc, ats: greenhouse, slug: zocdoc}
+  - {name: Calm, ats: greenhouse, slug: calm}
+
+consumer_and_marketplaces:
+  - {name: Instacart, ats: greenhouse, slug: instacart}
+  - {name: Lyft, ats: greenhouse, slug: lyft}
+  - {name: Squarespace, ats: greenhouse, slug: squarespace}
+
+education_and_nonprofit:
+  - {name: Coursera, ats: greenhouse, slug: coursera}
+  - {name: Khan Academy, ats: greenhouse, slug: khanacademy}
+  - {name: Wikimedia Foundation, ats: greenhouse, slug: wikimedia}
+
+hardware_and_mobility:
+  - {name: Waymo, ats: greenhouse, slug: waymo}
+  - {name: Nuro, ats: greenhouse, slug: nuro}
+  - {name: Zoox, ats: lever, slug: zoox}

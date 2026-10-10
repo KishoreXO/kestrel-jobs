@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 40" width="168" height="40">
+  <g transform="translate(4 4)">
+    <rect width="32" height="32" rx="8" fill="#0d9488"/>
+    <path d="M3.5 10.5 16 16.2l12.5-5.7-5.6-.4L16 13.3 9.1 10.1z" fill="#fff"/>
+    <path d="M13.6 15.2h4.8L16 21.6z" fill="#fff"/>
+    <circle cx="16" cy="26" r="2.1" fill="#ccfbf1"/>
+  </g>
+  <text x="46" y="28" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0f766e">Kestrel</text>
+</svg>

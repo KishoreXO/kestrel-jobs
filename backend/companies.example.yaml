@@ -1,0 +1,11 @@
+# Copy to backend/data/companies.yaml, or manage companies from the dashboard.
+# ats: greenhouse | lever | ashby     slug: taken from the company's careers URL (see docs/SOURCES.md)
+- name: Example Inc
+  ats: greenhouse
+  slug: exampleinc
+- name: Example Labs
+  ats: lever
+  slug: examplelabs
+- name: Example AI
+  ats: ashby
+  slug: exampleai
