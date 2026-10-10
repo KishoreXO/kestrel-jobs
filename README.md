@@ -2,6 +2,8 @@
 
 <p align="center"><strong>Self-hosted job matching that respects the sites it reads.</strong></p>
 
+<p align="center"><a href="docs/demo.mp4"><img src="docs/demo.gif" alt="Kestrel demo" width="900"></a><br><sub><a href="docs/demo.mp4">Watch the full demo video</a></sub></p>
+
 A kestrel hovers in place and picks out exactly one target. Kestrel does the same with job boards.
 It reads openings from official job APIs and scores each one against your profile with a typed
 classifier. Only roles that genuinely fit you reach your dashboard. When you decide to apply, it
@@ -33,8 +35,8 @@ It never applies for you.
 You need [uv](https://docs.astral.sh/uv/) (Python) and [Node.js](https://nodejs.org) 20 or newer.
 
 ```bash
-git clone https://github.com/kestrel-jobs/kestrel
-cd kestrel
+git clone https://github.com/KishoreXO/kestrel-jobs
+cd kestrel-jobs
 ```
 
 Then start it:

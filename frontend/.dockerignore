@@ -1,0 +1,7 @@
+# Installed and built inside the image; a local copy (often for another OS) must not overwrite them.
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env*
